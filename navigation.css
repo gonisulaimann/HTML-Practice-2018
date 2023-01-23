@@ -1,0 +1,32 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 0;
+}
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    background-color: rgb(60, 60, 60);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    padding: 14px 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+li a.active {
+    background-color: green;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
