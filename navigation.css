@@ -13,6 +13,7 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-transform: capitalize;
 }
 li {
     float: left;
