@@ -1,0 +1,40 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.content {
+    display:none;
+    background-color: aliceblue;
+    min-width: 150px;
+    position: absolute;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+}
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover .button {
+    background-color: #3e8e41;
+}
