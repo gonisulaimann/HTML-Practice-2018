@@ -34,5 +34,57 @@ li a:hover:not(.active) {
     position: relative;
 }
 .content {
-    display: ;
+    display: none;
+    background-color:aliceblue);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 200px;
+    position: absolute;
+}
+.dropdown:hover .content {
+    display: block;
+}
+.desc {
+    text-align: center;
+    padding: 5px;
+}
+/*Another image dropdown*/
+.drop {
+    position: relative;
+    display: inline;
+}
+.con {
+    display: none;
+    background-color: aliceblue;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0px
+}
+.drop:hover .con {
+    display: block;
+    
+}
+.description {
+    text-align: center;
+    padding: 5px;
+}
+/*Another image dropdown*/
+.dropped {
+    position: relative;
+    display: inline;
+}
+.cont {
+    display: none;
+    background-color: aliceblue;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 200px;
+    position: absolute;
+    left: 0;
+}
+.dropped:hover .cont {
+    display: block;
+}
+.dex {
+    text-align: center;
+    padding: 5px;
 }
