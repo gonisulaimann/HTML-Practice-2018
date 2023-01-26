@@ -1,0 +1,103 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*this is the navigation bar*/
+.navigation {
+    display: block;
+}
+#un {
+    text-transform: capitalize;
+    list-style-type: none;
+    background-color: rgb(61, 59, 59);
+    margin: 0;
+    padding: 0;
+}
+.list {
+    display: inline-block;
+    
+}
+.list a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+.list a.active {
+    background-color: green;
+}
+.list a:hover:not(.active) {
+    background-color: black;
+}
+/*This is the dropdown button*/
+div.drop {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 16px
+}
+.content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 140px;
+    box-shadow: 0px 3px 3px 3px rgb(208, 208, 208);
+
+}
+.content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    
+}
+.content a:hover {
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+.drop:hover .content {
+    display: block;
+}
+/*dropdown ended here*/
+/*another dropdown*/
+.dropped {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+}
+.btn {
+    background-color: green;
+    border: none;
+    padding: 14px 16px;
+    color: white;
+    font-size: 16px;
+}
+.con {
+    display: none;
+    list-style: none;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 3px 3px rgb(208, 208, 208);
+    position: absolute;
+    min-width: 120px;
+}
+.con a {
+    color: black;
+    text-decoration: none;
+    text-transform: ;
+    padding: 14px 16px;
+    display: block;
+}
+.con a:hover {
+    background-color:  rgb(61, 59, 59);
+    color: white;
+}
+.dropped:hover .con {
+    display: block;
+}

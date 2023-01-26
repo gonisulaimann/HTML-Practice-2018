@@ -1,0 +1,48 @@
+/*This is the body*/
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*This the navigation*/
+.navigation {
+    display: block;
+}
+.list {
+    background-color: rgb(57, 57, 57);
+    text-transform: capitalize;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+li a.active {
+    background-color: green;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+/*image dropdown*/
+.dropdown {
+    display: inline;
+}
+img {
+    display: inline;
+    width: 100px;
+}
+.content {
+    display: none;
+    width: 200opx;
+}
+.dropdown:hover .content {
+    display: block;
+}

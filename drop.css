@@ -1,0 +1,35 @@
+body {
+    background-color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+.content {
+    display: none;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 5px 5px rgb(225, 225, 225);
+    min-width: 141px;
+    position: absolute;
+
+}
+.content a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    display: block;
+    padding: 14px 16px;
+}
+.dropdown:hover .button{
+    background-color: rgb(43, 143, 43);
+}
+.dropdown:hover a:hover {
+    background-color: rgb(209, 204, 204);
+}
+.dropdown:hover .content{
+    display: block;
+}
