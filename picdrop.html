@@ -4,8 +4,10 @@
         <title>Website</title>
         <meta name="viewport" charset="utf-8">
         <link rel="stylesheet" href="picdrop.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!--this is the navigation bar-->
     <div class="navigation">
         <ul class="list">
             <li><a class="active" href="#">About</a></li>
@@ -15,12 +17,24 @@
             <li><a href="#">report</a></li>
             <li><a href="#">sign in</a></li>
         </ul>
+        <!--This is the dropdown-->
     </div>
+    <h2>A sample of a hover</h2>
+    <p>Hover over the image to display effect. Immediately you hover over the image, the content displays</p>
+    <p>This is cause due to the "display" effect which is hidden by default. Hence, we display
+        it by enabling the display "block" effect.
+    </p>
+    <h4>Try moving you mouse over the content, which in this case is the image</h4>
     <div class="dropdown">
         <img class="img" src="photo.jpg" alt="my image">
         <div class="content">
-            <img src="photo.jpg" alt="my image">
+            <img src="photo.jpg" alt="my image" width="400px">
         </div>
-    </div>    
+    </div>  
+    <!--Second image-->
+    <div class="tooltip">Hover over me
+        <span class="tooltiptext">I'm a text please</span>
+    </div>
+    
     </body>
 </html>

@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.navigation {
+
+}
+ul {
+    background-color: rgb(37, 36, 36);
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    text-transform: capitalize;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+li a.active {
+    background-color: green;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+/*This is the dropdown image*/
+.dropdown {
+    display: inline;
+    position: relative;
+}
+.content {
+    display: ;
+}

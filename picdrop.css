@@ -1,48 +1,60 @@
-/*This is the body*/
 body {
     background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: verdana;
     margin: 0;
-    padding: 0;
-}
-
-/*This the navigation*/
-.navigation {
-    display: block;
 }
 .list {
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(46, 46, 46);
+    list-style-type: none;
     text-transform: capitalize;
     margin: 0;
+    display: block;
 }
 li {
     display: inline-block;
 }
 li a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding: 14px 16px;
     display: block;
 }
 li a.active {
     background-color: green;
-    color: white;
 }
 li a:hover:not(.active) {
-    background-color: black;
+    background-color: rgb(28, 28, 28);
 }
-/*image dropdown*/
+/*This is the dropdown*/
 .dropdown {
     display: inline;
+    position: relative;
+    top: 50px;
 }
-img {
-    display: inline;
-    width: 100px;
+.img {
+    width: 200px;
 }
 .content {
     display: none;
-    width: 200opx;
+
 }
 .dropdown:hover .content {
     display: block;
+}
+/*This is a tooltip*/
+.tooltip {
+    display: inline;
+    cursor: pointer;
+
+}
+.tooltiptext {
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    padding: 5px 5px;
+    font-size: 15px;
+    visibility: hidden;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
 }
