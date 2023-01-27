@@ -15,6 +15,29 @@
   padding: 5px;
   margin-bottom: 1em;
 }
+.box {
+  border: 2px solid black;
+  width: 50%;
+  height: 200px;
+}
+.content {
+  border: 2px solid black;
+  width: 50px;
+  position: absolute;
+  display: inline-block;
+}
+.text {
+  border: 2px solid black;
+  width: 50px;
+  position: relative;
+  display: inline;
+}
+.pos {
+  border: 2px solid black;
+  width: 50px;
+  position: relative;
+  display: inline-block;
+}
 
     </style>
 </head>
@@ -26,6 +49,15 @@
           Item with more text in it, hopefully we have added enough text so the text
           will start to wrap.
         </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          This is the box
+        </div>
+        <div class="text">
+          This is the input tex
+        </div>
+        <div class="pos">This is another text</div>
       </div>
       
 </body>

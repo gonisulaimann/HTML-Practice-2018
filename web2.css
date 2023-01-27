@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+.navigation {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+.list {
+    list-style-type: none;
+    text-transform: capitalize;
+    margin: 0;
+    width: fit-content;
+    font-size: 1em;
+   
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    padding: 14px 16px;
+    display: block;
+}
+li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+/*paragraph font*/
+.font {
+    color: white;
+    text-align: justify;
+}
+/*Defining the button*/
+.button {
+    position: relative;
+    display: inline-block
+}
+.btn {
+    padding: 0.6em 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    display: inline-block;
+}
+.content {
+    background-color: black;
+    display: block;
+    visibility: hidden;
+    box-shadow: 0px 8px 16px 0px rgb(37, 37, 37);
+    width: 85px;
+    text-align: center;
+    padding: 14px 16px;
+    z-index: 3;
+}
+.content a {
+    color: white;
+}
+.content a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.button:hover .content {
+    visibility: visible;
+}
+/*second dropdown*/
+.but {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+}
+.bt {
+    padding: 0.6em 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    display: inline-block; 
+}
+.con {
+    background-color: black;
+    visibility: hidden;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgb(37, 37, 37);
+    width: 85px;
+    text-align: center;
+    padding: 14px 16px;
+    z-index: 3;
+}
+.con a {
+    color: white;
+}
+.con a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.but:hover .con {
+    visibility: visible;
+}
+/*Paragraph two*/
+.fon {
+    color: white;
+    margin-top: -260px;
+    text-align: justify;
+}
+/*third paragraph*/
+.container {
+    border: 2px solid whitesmoke;
+}
+.text {
+    color: white;
+}
+.dropdown {
+    display: ;
+}
+.photo {
+    width: 150px;
+    float: right;
+}
+.algoni {
+    width: 250px;
+    border: 2px solid white;
+}
+.image {
+    visibility: hidden;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgb(149, 145, 145);
+    position: absolute;
+    left: 350px;
+    top: 700px
+}
+.dropdown:hover .image {
+    visibility: visible;
+}
+.description {
+    color: white;
+    padding: 5px;
+}
+/*Styling the tooltip*/
+.tooltip {
+    display: inline;
+}
+.tooltiptext {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+}
+.tooltip .tooltiptext {
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    visibility: hidden;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
