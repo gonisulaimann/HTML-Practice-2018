@@ -1,0 +1,103 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+ul {
+    background-color: rgb(35, 34, 34);
+    text-transform: capitalize;
+    list-style-type: none;
+    margin: 0;
+    cursor: pointer;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+li a.active {
+    background-color: green;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+.just {
+    text-align: justify;
+}
+/*This is the width of the images*/
+.weld {
+    max-width: 200px;
+}
+.weld1 {
+    max-width: 300px;
+}
+/*This is the width of the images*/
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.content {
+    visibility: hidden;
+    background-color: aliceblue;
+    box-shadow: 0px 8x 16px 0px rgb(200, 199, 199);
+    border: 2px solid rgb(205, 204, 204);
+}
+.description {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.dropdown:hover .content {
+    visibility: visible;
+}
+/*first dropdown ends here*/
+.drop {
+    display: inline-block;
+    position: relative;
+    margin-left: -80px;
+}
+.cont {
+    visibility: hidden;
+    background-color: aliceblue;
+    box-shadow: 0px 8x 16px 0px rgb(200, 199, 199);
+    border: 2px solid rgb(205, 204, 204);
+}
+.descrip {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.drop:hover .cont {
+    visibility: visible;
+}
+/*third dropdown*/
+.dropped {
+    display: inline-block;
+    position: absolute;
+    margin-left: -66px;
+}
+.conten {
+    visibility: hidden;
+    background-color: aliceblue;
+    box-shadow: 0px 8x 16px 0px rgb(200, 199, 199);
+    border: 2px solid rgb(205, 204, 204);
+}
+.des {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.dropped:hover .conten {
+    visibility: visible;
+}
+/*Another dropdown*/
+.dro {
+    display: inline-block;
+    position: absolute;
+    margin-left: -66px;
+}
