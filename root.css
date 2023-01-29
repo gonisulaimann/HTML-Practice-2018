@@ -43,3 +43,8 @@ p::selection {
     display: flex;
     justify-content: space-between;
   }
+  .tooltip {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+  }
