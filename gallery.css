@@ -1,0 +1,20 @@
+body {
+    background: aliceblue;
+    color: black;
+}
+div.img {
+    margin: 5px;
+    float: left;
+    border: 2px solid rgb(198, 196, 196);
+    width: 180px;
+}
+div.img img {
+    width: 100%;
+}
+div.img:hover {
+    border: 2px solid rgb(38, 37, 37);
+}
+.description {
+    text-align: center;
+    padding: 8px;
+}
