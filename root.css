@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+    
+}
+p::selection {
+    background-color: red;
+    color: white;
+}
+.box {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    text-align: justify;
+    top: 100px;
+    left: 100px;
+    box-shadow: 0px 5px 5px 5px rgb(69, 67, 67);
+}
+.content {
+    padding: 15px;
+    position: absolute;
+}
+.content p {
+    outline: 2px solid red
+}
+ a {
+    color: red;
+    text-decoration: none;
+    outline: 1px solid red;
+    /*This is it*/
+}
+.btn {
+    color: black;
+    background: lightblue;
+    outline: none;
+    padding: 20px 25px;
+    display: inline-block;
+    margin: 20px;
+}
+.flex {
+    border: 5px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
