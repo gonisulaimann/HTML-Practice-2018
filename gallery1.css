@@ -1,0 +1,16 @@
+body {
+    background: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    
+}
+.gallery {
+    border: 2px solid rgb(204, 202, 202);
+    display: inline-block;
+}
+.gallery:hover {
+    border: 2px solid black;
+}
+.description {
+    padding: 5px;
+}
