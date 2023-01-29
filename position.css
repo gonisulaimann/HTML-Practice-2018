@@ -1,0 +1,23 @@
+.container {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+}
+.container h3, p {
+    position: relative;
+    z-index: 2;
+    
+}
+.image {
+    width: 333px;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    
+}
