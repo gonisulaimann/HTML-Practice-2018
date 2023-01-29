@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tooltip {
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+.content {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 5px;
+    visibility: hidden;
+    position: absolute;
+    
+}
+.tooltip .content {
+    top: 0px;
+    left: 70px;
+}
+.tooltip:hover .content {
+    visibility: visible;
+}
