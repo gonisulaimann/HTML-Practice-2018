@@ -1,0 +1,14 @@
+#home {
+    width: 46px;
+    height: 44px;
+    background: url(1.jpg) 40px;
+}
+
+#next {
+    width: 43px;
+    height: 44px;
+    background: url(1.jpg) -20px 0;
+}
+a[target=_blank] {
+    background-color: orange;
+}
