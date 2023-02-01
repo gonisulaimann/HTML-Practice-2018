@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    padding: 40px;
+}
+input[type=text] {
+    border: 2px solid rgb(172, 170, 170);
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=submit] {
+    background: rgb(46, 150, 46);
+    border: none;
+    color: white;
+    padding: 12px 14px;
+    width: 100%;
+}
