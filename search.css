@@ -1,0 +1,20 @@
+body {
+    background: aliceblue;
+    font-family: sans-serif;
+}
+input[type=text] {
+    padding: 12px 20px 12px 40px;
+    width: 100%;
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
