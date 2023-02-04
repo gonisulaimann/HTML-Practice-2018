@@ -1,0 +1,20 @@
+body {
+    background: aliceblue;
+}
+div.search {
+    
+}
+input[type=text] {
+    background: url(search.svg);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 35px;
+    width: 300px;
+
+}
+input[type=text]:focus {
+    border: none;
+    box-shadow: 0-x;
+}
+
+
