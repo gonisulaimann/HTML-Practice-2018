@@ -30,3 +30,10 @@ input[type=text]:hover  {
 input[type=text]:focus {
     border: none;
 }
+input[type=submit] {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 6px;
+    margin-top: 10px;
+}
