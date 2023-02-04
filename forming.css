@@ -2,6 +2,16 @@ body {
     background-color: aliceblue;
     font-family: sans-serif;
 }
+.search {
+    width: 200px;
+    border-radius: 2px;
+}
+.search input[type=text] {
+    background: url(search.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding: 5px 30px;
+}
 .formed {
     background-color: aliceblue;
     width: 500px;
