@@ -1,0 +1,44 @@
+body {
+    background: rgb(241, 241, 241);
+}
+div.button {
+    width: 80px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background: url(search.svg) white;
+    background-repeat: no-repeat;
+    background-position: 22px;
+    background-size: 30px;
+    border-radius: 5px;
+}
+div.button:hover {
+    background: url(search.svg) orange;
+    background-repeat: no-repeat;
+    background-position: 22px;
+    background-size: 30px;
+    border-radius: 5px;
+}
+div.search {
+    width: 80px;
+    height: 40px;
+    background: url(search.svg) no-repeat green;
+    background-position: 5px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    border-radius: 5px;
+}
+div.content {
+   position: relative;
+   top: 11px;
+   left: 25px;
+   color: white;
+}
+div.search:hover {
+    background-color: rgb(60, 60, 194);
+    color: black;
+    cursor: pointer;
+    
+}
