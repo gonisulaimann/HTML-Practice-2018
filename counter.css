@@ -1,9 +1,16 @@
 body {
-    background-color: aliceblue;
+    background-color: green;
     font-family: sans-serif;
+    font-size: small;
     counter-reset: section;
 }
-
-h2::before {
-    content: "section" counter(section) ":  ";
+h1::before {
+    content: "Section" counter(section) ": ";
     counter-increment: section;
+}
+h2::before {
+    counter-reset: section;
+    content: counter(section) "." counter(section) " ";
+    counter-increment: subsection;
+}
+
