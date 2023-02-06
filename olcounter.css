@@ -1,0 +1,11 @@
+body {
+    background: aliceblue;
+    counter-reset: section;
+}
+ol {
+    list-style-type: none;
+}
+li::before {
+    counter-increment: section;
+    content: counter(section) "." counter(subsection) " ";
+}
