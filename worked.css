@@ -14,6 +14,10 @@ body {
     width: 100%;
     height: 100px;
     margin: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;
 }
 
 .header li {
@@ -23,6 +27,7 @@ body {
     margin: 5px;
     padding-right: 10px;
     padding-top: 25px;
+    
 }
 li a {
     text-decoration: none;
@@ -41,20 +46,69 @@ li a:hover:not(.active) {
     color: rgb(252, 251, 251);
 }
 /*Responsive*/
-.column {
-    float: left;
+.image {
     width: 33.33%;
-    padding: 15px;
-    color: white;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* Clear floats after the columns */
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width=600px) {
+    padding: 5px;
+    float: right;
+    margin-top: 5px;
+    display: inline-block;
     
 }
+.img {
+    display: inline-block;
+    position: inherit;
+
+}
+.content {
+    width: 60%;
+    display: inline-block;
+    visibility: hidden;
+}
+/*image content*/
+.img:hover .content {
+    visibility: visible;
+    display: inline;
+}
+.button a {
+    background-color: #28cccc;
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative;
+    left: 46%;
+    margin-top: 12px;
+}
+.button a:hover {
+    background-color: #23acac;
+}
+/*text section*/
+.text {
+    color: white;
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+.column {
+    float: left;
+    padding: 60px;
+    width: 25%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width:700px) {
+    .column {
+        width: 100%;
+    }
+}
+.footer {
+    width: 100%;
+    background-color: #888181;
+    padding: 10px;
+    text-align: center;
+  }
