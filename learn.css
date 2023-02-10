@@ -46,6 +46,7 @@ li a:hover {
     padding: 5px;
 }
 .rightcolumn {
+    float: right;
     background-color: white;
     width: 28%;
     float: right;
