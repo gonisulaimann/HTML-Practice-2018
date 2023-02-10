@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(231, 229, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+.content {
+    height: 100px;
+    text-align: center;
+}
+div.nav {
+    display: block;
+}
+ul.navigation {
+    background-color: rgb(82, 82, 82);
+    display: block;
+    padding-left: 0;
+    padding: 15px;
+    margin-top: 0;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+li a:hover {
+    background-color: black;
+}
+.image {
+    height: 200px;
+    background: grey;
+    padding: 20px;
+}
+.image:hover {
+    background-color: rgb(180, 176, 176);
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+.column {
+    width: 25%;
+    float: right;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:600px) {
+    .nav {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+  }
+  @media screen and (max-width:800) {
+    .leftcolumn, .column {
+        width: 100%;
+        padding: 0;
+    }
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
