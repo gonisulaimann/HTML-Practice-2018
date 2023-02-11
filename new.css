@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(223, 223, 223);
+    counter-reset: section;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 30px;
+    border-left: 15px solid green;
+    box-shadow: 0px 5px 5px 5px rgb(181, 178, 178);
+}
+#id:before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}
+#a {
+    background-color: blue;
+    color: orange;
+}
+p#a {
+    background-color: green;
+    color: white;
+}
+p[id=a] {
+    background-color: green;
+    color: orange;
+}
+h2 {
+    color: white;
+    background: blue;
+}
+h2 {
+    color: white;
+    background-color: orange;
+}
+h2 {
+    color: green;
+    background-color: blue;
+}
+.mytext {
+    color: orange;
+}
+.my {
+    color: red;
+}
+div.ko {
+    color: orange;
+}
+div.ok {
+    color: pink;
+}
+div {
+    color: orange;
+}
+.button {
+    background-color: grey;
+    padding: 5px;
+    color: white;
+    border: 2px solid rgb(88, 87, 87);
+}
+.mydiv {
+    color: red;
+    background-color: yellow;
+}
