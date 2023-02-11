@@ -37,6 +37,6 @@ input[type=submit] {
     padding: 5px;
     border: none;
     background-color: green;
-    color: white;
+    color: rgb(251, 251, 251);
     margin-top: 10px;
 }
