@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(245, 244, 244);
+}
+.object {
+    position: absolute;
+    left: 500px;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    width: calc(100% - 700px);
+}
+#object2 {
+    position: absolute;
+    left: 100px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    width: max(200px, 300px );
+}
+.object3 {
+    position: absolute;
+    left: 400px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: min(200px, 80px);
+}
