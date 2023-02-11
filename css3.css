@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+
+#example1 {
+    background-image: url(workers.jpg), url(search1.png);
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+    opacity: 0.1;
+}
