@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(238, 235, 235);
+    font-family: arial;
+    padding: 10px;
+    counter-reset: section;
+}
+.header {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    padding: 80px;
+}
+.nav {
+    background: rgb(99, 95, 95);
+}
+ul {
+    list-style: none;
+    display: block;
+    padding: 20px;
+    margin-top: 0;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: black;
+}
+li a:hover:not(.active) {
+    background-color: rgb(24, 23, 23);
+}
+/*This is the card*/
+.card {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+h3 {
+    counter-reset: section;
+}
+h3::before {
+    counter-increment: section;
+    content: "Part " counter(section) ". ";
+}
+h4::before {
+    
+    counter-increment: subsection;
+    content: counter(section) ". " counter(subsection) " ";
+}
