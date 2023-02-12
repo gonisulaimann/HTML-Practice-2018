@@ -1,12 +1,38 @@
 body {
     background-color: white;
 }
+div.box {
+    border: 5px solid green;
+    width: max(20px, 200px);
+    height: min(500px, 150px);
+    border-radius: 20px 70px;
+    display: inline-block;
+    background: url(photo.jpg) no-repeat;
+    background-position: -01px -10px;
+    background-size: 200px;
+}
+div.box:hover {
+    opacity: 0.8;
+}
+div.box2 {
+    border: 5px solid green;
+    width: max(60%);
+    height: min(200px, 100px);
+    border-radius: 0px 30px 30px 0px;
+    display: table;
+    content: "";
+    padding: 20px;
+    text-align: justify;
+}
+div.box3 {
+    border: 5px solid green;
+    width: max(20px, 200px);
+    height: min(500px, 150px);
+    border-radius: 30%;
+    display: inline-block;
+}
+#image {
+    background: url(1.jpg) right bottom no-repeat, url(2.jpg) left top right no-repeat;
+    padding: ;
 
-
-#example1 {
-    background-image: url(workers.jpg), url(search1.png);
-    background-position: left bottom, right top;
-    background-repeat: no-repeat, no-repeat;
-    padding: 15px;
-    opacity: 0.1;
 }
