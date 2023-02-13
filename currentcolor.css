@@ -1,10 +1,98 @@
 body {
-}
-div.color {
-    color: orange;
+    color: green;
 }
 .current {
+    padding: 100px;
+    margin: 50px;
     height: 200px;
     border: 5px solid currentColor;
+    box-shadow: 5px 5px 5px 1px currentColor;
 
+}
+.inherit {
+    height: 200px;
+    border: 2px solid orange;
+    background-color: orange;
+    background: -o-linear-gradient(yellow, black);
+    background: linear-gradient(20deg, yellow, orange);
+    border: 2px solid black;
+    color: white;
+}
+.text {
+    color: currentColor;
+    border: inherit;
+    display: inline;
+}
+.trans {
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), orange);
+}
+.transp {
+    height: 200px;
+    margin-top: 20px;
+    background: red;
+    background: repeating-linear-gradient(to top, yellow 10%, green 20%);
+}
+.transpa {
+    height: 200px;
+    margin-top: 20px;
+    background: red;
+    background: radial-gradient(closest-side at 10% 55%, yellow, orange);
+    background: radial-gradient(farthest-side at 70px 55%, yellow, red)
+
+}
+.transpar {
+    height: 100;
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(yellow, orange, blue)
+}
+.transpare {
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    background: conic-gradient(yellow, green, orange);
+}
+.transparen {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: conic-gradient(yellow, orange, red, green, blue, black, indigo, pink), black;
+}
+
+.transparent {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    margin-top: 20px;
+    background: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, black 270deg, black 360deg);
+}
+.transparent1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+}
+.transparent2 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(yellow 10%, green 20%);
+}
+.transparent3 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg)
 }
