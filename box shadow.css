@@ -1,0 +1,28 @@
+div.box {
+    height: 200px;
+    width: 300px;
+    background: red;
+    margin: auto;
+    box-shadow: 10px 10px;
+}
+div.box2 {
+    height: 200px;
+    width: 300px;
+    background: red;
+    margin-top: 40px;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+div.box3 {
+    height: 200px;
+    width: 300px;
+    background: red;
+    margin-top: 60px;
+    box-shadow: 10px 10px 3px 4px grey inset;
+}
+div.box4 {
+    height: 200px;
+    width: 300px;
+    background: coral;
+    margin-top: 30px;
+    box-shadow: 10px 10px blue, 15px 15px green, 20px 20px orange;
+}
