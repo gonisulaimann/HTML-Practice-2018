@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text {
+    text-align: center;
+    text-shadow: 5px 1px 5px red;
+}
+.text2 {
+    text-align: center;
+    text-shadow: 7px 7px 7px red;
+}
+.text3 {
+    text-align: center;
+    text-shadow: 2px 2px 2px blue;
+}
+.text4 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(46, 46, 46);
+}
+
+.text5 {
+    text-align: center;
+    color: coral;
+    text-shadow: -1 0 black, -1px 0 black, 0 -1px black, 0 -1px black;
+}
