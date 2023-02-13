@@ -1,0 +1,40 @@
+.hero {
+    background: url(search.png) left top no-repeat, url(elyana.jpg) left bottom no-repeat, url(photo.jpg) no-repeat;
+    background-size: 50px, 200px,100%;
+    height: 500px;
+    background-origin: border-box;
+}
+.full {
+    margin-top: 20px;
+    border: 2px solid green;
+    height: 500px;
+    max-width: 100%;
+    background: url(2.jpg) center no-repeat fixed;
+    background-size: cover;
+    background-origin: content-box;
+}
+.button {
+    background-color: orange;
+    width: 100px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.fulled {
+    background: url(3.jpg) center no-repeat scroll;
+    background-size: contain;
+    max-width: 100%;
+    height: 500px;
+    background-clip: content-box;
+}
+.null {
+    background: url(search.png) left top no-repeat, url(elyana.jpg) left bottom no-repeat, orange;
+    background-size: 50px, 100px;
+    height: 500px;
+    width: 100%;
+    background-clip: content-box;
+}
