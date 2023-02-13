@@ -1,46 +1,28 @@
+body {
+    background: url(photo.jpg);
+}
+.gra {
+    height: 200px;
+    background: red;
+    background: -o-linear-gradient(yellow, red);
+    background: -webkit-gradient(yellow, red);
+    background: -moz-linear-gradient(yellow, red);
+    background: linear-gradient(180deg, red, yellow)
+}
 .grad {
     height: 200px;
     background: red;
-    background: -webkit-gradient(yellow, red);
-    background: -o-linear-gradient(yellow, red);
-    background: linear-gradient(to right, rgba(123, 123, 70, 0), red)
-}
-.button {
-    background-color: red;
-    width: 100px;
-    padding: 30px;
     margin-top: 20px;
-    text-align: center;
-    background: -webkit-gradient(red, yellow);
-    background: -o-linear-gradient(red, yellow);
-    background: linear-gradient(to left, red, rgba(214, 214, 46, 0));
-    color: white;
+    background: -moz-radial-gradient(yellow, green);
+    background: -webkit-radial-gradient(yellow, green);
+    background: radial-gradient(circle, yellow, green, orange);'
+
 }
-.gradient {
+.color {
+    background: linear-gradient(to bottom, yellow, rgb(255, 3, 45));
+    color: blue;
+    border: 5px solid currentColor;
     height: 200px;
-    background: red;
-    margin-top: 20px;
-    background: -webkit-gradient(yellow, red);
-    background: -o-linear-gradient(yellow, red);
-    background: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
-}
-.gradi {
-    height: 200px;
-    margin-top: 20px;
-    background: red;
-    background: -o-linear-gradient(right, yellow, orange);
-    background: -webkit-gradient(right, yellow, orange);
-    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
-}
-.gradie {
-    height: 200px;
-    margin-top: 20px;
-    background-color: red;
-    background: repeating-linear-gradient(to top, yellow 10%, red 20%)
-}
-.gradien {
-    height: 200px;
-    margin-top: 20px;
-    background: red;
-    background: radial-gradient(circle, rgb(255, 255, 0) 7%, rgb(255, 0, 0) 20%, green 20%);
+    padding: 15px;
+    margin-top: 20px;   
 }
