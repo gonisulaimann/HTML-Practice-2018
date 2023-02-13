@@ -1,0 +1,10 @@
+body {
+}
+div.color {
+    color: orange;
+}
+.current {
+    height: 200px;
+    border: 5px solid currentColor;
+
+}
