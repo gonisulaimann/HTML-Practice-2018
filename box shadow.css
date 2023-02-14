@@ -1,3 +1,10 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: proxima nova;
+    src: url(Proxima\ Nova\ Font.otf);
+}
 div.box {
     height: 200px;
     width: 300px;
@@ -25,4 +32,79 @@ div.box4 {
     background: coral;
     margin-top: 30px;
     box-shadow: 10px 10px blue, 15px 15px green, 20px 20px orange;
+}
+.box5 {
+    height: 200px;
+    width: 300px;
+    background: red;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   box-shadow: 20px 20px blue, 20px 20px orange, 30px 30px green;
+}
+.box6 {
+    color: coral;
+    text-shadow: -1 0 black, -1 0 black, 0 -1 black, -1 0 black;
+}
+.conic {
+    height: 300px;
+    width: 300px;
+    background: red;
+    margin-top: 80px;
+    border-radius: 50%;
+    background: conic-gradient(yellow 45deg, green 90deg);
+
+}
+div.card {
+    width: 250px;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 8px rgba(128, 128, 128, 0.504), 0px 5px 8px rgba(128, 128, 128, 0.501), 0px 5px 8px rgba(128, 128, 128, 0.496);
+    display: inline-block;
+    margin-left: 20px;
+
+}
+div.header {
+    background: rgb(59, 144, 59);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.container {
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 20px;
+}
+div.card:hover {
+    opacity: 0.8;
+}
+.card2 {
+    width: 250px;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 8px rgba(128, 128, 128, 0.504), 0px 5px 8px rgba(128, 128, 128, 0.501), 0px 5px 8px rgba(128, 128, 128, 0.496);
+    display: inline-block;
+    margin-left: 20px;
+}
+.image {
+    width: 250px;
+}
+.text {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.text3 {
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 100px;
+    word-break: keep-all;
+
+}
+.text4 {
+    writing-mode: horizontal-tb;
 }
