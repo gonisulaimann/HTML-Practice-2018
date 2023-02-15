@@ -2,7 +2,9 @@
 
 .body {
     z-index: 5px;
-}  .box1 {
+    color: red;
+}  
+.box1 {
     width: 200px;
     height: 200px;
     background: red;
@@ -165,4 +167,53 @@ div.twenone {
     margin-top: 200px;
     background: repeating-linear-gradient(yellow, red);
     transform: matrix(1, 0.8, 0, 1, 0, 0);
+}
+div.twentwo {
+    color: coral;
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px black;
+}
+div.twenthree {
+    background: coral;
+    margin-top: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20% 70%;
+}
+div.twenthree:hover {
+    transform: rotate(80deg);
+}
+div.twentfour {
+    background: coral;
+    margin-top: 300px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    color: white;
+    transform: rotatey(-180deg);
+}
+div.twentfour:hover {
+    
+}
+div.twentfive {
+    background: red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 320px;
+    color: white;
+    transform: rotateZ('360deg');
+}
+div.twentsix {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 100s;
+    margin-top: 400px;
+}
+
+div.twentsix:hover {
+    width: 300px;
 }
