@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.body {
+    z-index: 5px;
+}  .box1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    box-shadow: 10px 10px black, 20px 20px green, 30px 30px orange;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    background: red;
+    box-shadow: 10px 10px 2px 2px grey inset;
+}
+.box3 {
+    border: 1px solid grey;
+    width: 100px;
+    height: 500p;
+    margin-top: 20px;
+    word-break:keep-all;
+}
+.box3:hover {
+    width: 300px;
+    overflow: visible;
+    cursor: pointer;
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: conic-gradient(10deg yellow, orange 180deg);
+}
+.box5 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+div.six {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px solid black;
+    transform: rotate(40deg);
+}
+div.seven {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px solid black;
+    transform: rotate(50deg);
+    margin-top: 80px;
+}
+div.eight {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px solid red;
+    transform: scale(1, 1);
+    z-index: 0;
+}
+div.nine {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    margin-top: 20px;
+    transform: scalex(1);
+}
+div.ten {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    margin-left: 0;
+}
+div.eleven {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin-top: 300px;
+    transform: scaleY(3);
+}
+div.twelve {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    background: red;
+    transform: skewX(60deg);
+}
+div.fourteen {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    background: red;
+    transform: skewX(60deg);
+    margin-left: 20px;
+}
+div.fifteen {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    background: red;
+    transform: skewX(60deg);
+    margin-left: 20px;
+}
+div.sixteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    background: red;
+    transform: skewX(-57deg);
+    margin-left: 20px;
+    margin-top: 0;
+}
+div.seventeen{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    background: red;
+    transform: matrix(1, 0, -3, 1, 0, 0);
+    margin-left: 20px;
+}
+div.eighteen {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background: red;
+    -webkit-transform: matrix();
+    -moz-transform: ;
+    transform: matrix(5, -0.3, 0, 1, 0, 0); 
+}
+div.nineteen {
+    width: 200px;
+    height: 200px;
+    background: red;
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    transform: matrix(1, 0, 2, 1, 0, 0);
+}
+div.twenty {
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    background-color: blue;
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    transform: matrix(1, 0.5 , 0, 1, 1, 1);
+}
+div.twenty:hover {
+    transform: matrix(1, 0, 0.5, 1, 90, 40);
+}
+div.twenone {
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    background: repeating-linear-gradient(yellow, red);
+    transform: matrix(1, 0.8, 0, 1, 0, 0);
+}
