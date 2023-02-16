@@ -1,0 +1,33 @@
+body {
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one {
+    width: 500px;
+    margin-top: 20px;
+}
+.two {
+    background: red;
+    width: 100px;
+    height: 100px;
+    transition-duration: 5s;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.two:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+div.four {
+    background: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    background: conic-gradient(white, red);
+    transition: width 2s, height 2s, transform 2s;
+}
+div.four:hover {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,85 @@
+body {
+    background: aliceblue;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.one {
+    display: block;
+}
+ul {
+    background: rgb(41, 40, 40);
+    display: block;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+}
+li a.active {
+    background: green;
+}
+li a:hover:not(.active) {
+    background: black;
+}
+div.two {
+    background: url(workers.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    animation-name: animation;
+    animation-duration: 4s; 
+    animation-delay: 2s;
+    
+}
+@keyframes animation {
+    from {opacity: 1;}
+    to {opacity: 0.4;}
+}
+button {
+    border: none;
+    padding: 15px;
+    background: green;
+    color: white;
+    font: inherit;
+    border-radius: 20px;
+    animation-name: animate;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 6;
+    margin-left: 200px;
+}
+@keyframes animate{
+    0% {background: rgb(20, 121, 20); top: 0px; left: 270px;}
+    25% {background: rgb(20, 121, 20); top: 0px; left: 300px;}
+    75% {background: rgb(20, 121, 20); top: 0px; left: 270px;}
+} 
+div.three {
+    margin-top: 20px;
+}
+div.four {
+    position: relative;
+    background: red;
+    width: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(222, 215, 215);
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-timing-function:: ease-in-out;
+    animation-iteration-count: 5;
+}
+@keyframes ani {
+    0% {background: red; top: 0px; left: 0px;}
+    25% {background: blue; top: 0px; left: 500px;}
+    50% {background: red; left: 500px; top: 200px;}
+    75% {background: orange; top: 200px; left: 0px;}
+    100% {background: green; top: 0px; left: 0px;}
