@@ -1,0 +1,250 @@
+body {
+    background: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+div.one {
+    background: red;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    animation-name: animate;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    position: relative;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate {
+    0% {background: red; top: 0px; left: 0px; }
+    25% {background: red; top: 0px; left: 500px; }
+    50% {background: red; top: 500px; left: 500px; }
+    75% {background: red; top: 500px; left: 0px; }
+    100% {background: red; top: 0px; left: 0px; }
+}
+div.box1, .box2, .box3, .box4 {
+    background: rgb(193, 191, 191);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 400px;
+    display: inline-block;
+}
+div.box1 {
+    animation-name: animation;
+    background: red;
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+}
+@keyframes animation {
+    0% {background: red; top: 0px; left: 2px;}
+    25% {background: red; top: 0px; left: 28px; }
+    50% {background: red; top: 0px; left: 47px; }
+
+    
+}
+div.three {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    animation-name: ani;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: 7;
+    animation-fill-mode: both;
+
+}
+@keyframes ani {
+    from {top: 0px;}
+    to {top: 100px}
+}
+div.four, .radio {
+    margin-top: 300px;
+    position: relative;
+    background: green;
+    width: 50px;
+    height: 50px;
+    animation: goni 3s ease infinite alternate-reverse both;
+    animation-play-state: running;
+}
+div.four:hover {
+    animation-play-state: paused;
+}
+@keyframes goni {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+div.five {
+    display: inline-block;
+    margin-top: 200px;
+}
+
+div.six {
+    background: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+
+}
+.hidden {
+    display: inline-block;
+    position: relative;
+    left: 220px;
+    background: green;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+    transition-timing-function: ease;
+}
+.six:hover .hidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*This is the tooltip*/
+div.seven {
+    display: inline-block;
+    margin-left: 20px;
+}
+div.tooltip {
+    border-bottom: 1px solid grey;
+    display: inline-block;
+}
+div.tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+div.tooltip:hover .tooltiptex {
+    visibility: visible;
+}
+div.eight {
+    background: url(photo.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 1;
+    transition: opacity 1s, transform 2s;
+    transition-duration: infinite;
+    margin-top: 60px;
+    display: block;
+    margin-left: 20px;
+    
+    
+}
+div.eight:hover {
+    opacity: 1;
+    transform: scale(1.);
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+    transform: scale(1.07);
+    
+}
+
+div.nine {
+    width: 200px;
+    height: 200px;
+    transition: box-shadow 1s;
+    background: url(photo.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    margin-top: 20px;
+
+}
+div.nine:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+div.ten {
+    background: url(photo.jpg) center no-repeat;
+    background-size: 200px;
+    background-position: 0px 0px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    filter:blur(20x)
+}
+div.eleven {
+    width: 100%;
+    height: 500px;
+    background: url(workers.jpg) center no-repeat;
+}
+
+div.twelve {
+    border: 3px solid tomato;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.9s, opacity 1s ease-in-out;
+    opacity: 0.7;
+    cursor: pointer;
+    box-sizing: content-box;
+
+}
+div.twelve:hover {
+    background: tomato;
+    opacity: 1;
+    color: white;
+}
+div.thirteen {
+    background: coral;
+    color: white;
+    display: inline-block;
+    padding: 13px;
+    transition: opacity 1s;
+}
+div.thirteen:hover {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+.fourteen {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.fourteen h3 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.fourteen h3:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+div.fourteen:hover .h3 {
+    padding-right: 25px;
+}
+div.fourteen:hover h3:after {
+    opacity: 1;
+    right: 0;
+}
